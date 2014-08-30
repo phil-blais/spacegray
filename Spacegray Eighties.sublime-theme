@@ -168,7 +168,7 @@
     {
         "class": "tab_label",
         "attributes": ["transient"],
-        "font.italic": true
+        "font.italic": false
     },
 
     // Tab Labels font size
@@ -433,7 +433,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [81, 81, 81] // 02
+        "color": [91, 91, 91] // 02
     },
 
 //
@@ -452,7 +452,7 @@
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8,4],
+        "row_padding": [8,3],
         "indent": 12,
         "indent_offset": 14,
         "indent_top_level": false,
@@ -512,7 +512,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [116, 115, 105] // 03
+        "color": [106, 105, 95] // 03
     },
     {
         "class": "sidebar_label",
@@ -538,7 +538,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [116, 115, 105] // 03
+        "color": [166, 165, 155] // 03
     },
     {
         "class": "sidebar_label",
@@ -618,14 +618,14 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "layer0.tint": [81, 81, 81], // 02
-        "layer0.opacity": 1,
+        "layer0.tint": [160, 159, 147], // 02
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0
     },
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [160, 159, 147] // 04
+        "layer0.opacity": 1 // 04
     },
     {
         "class": "disclosure_button_control",
@@ -635,18 +635,20 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png",
+        "layer0.tint": [254, 204, 102],
+        "layer0.opacity": 0.5
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.opacity": 1
     },
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
+        "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
 
 //
