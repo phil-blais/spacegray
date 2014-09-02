@@ -30,8 +30,10 @@
 				<string>#FFE792</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
+				<key>guide</key>
+				<string>#eae9d133</string>
 				<key>activeGuide</key>
-				<string>#9D550FB0</string>
+				<string>#eae9d166</string>
 
 				<key>bracketsForeground</key>
 				<string>#F8F8F2A5</string>
