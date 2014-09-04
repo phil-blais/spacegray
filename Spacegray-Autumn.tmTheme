@@ -31,9 +31,9 @@
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
 				<key>guide</key>
-				<string>#eae9d133</string>
+				<string>#eae9d122</string>
 				<key>activeGuide</key>
-				<string>#eae9d166</string>
+				<string>#eae9d144</string>
 
 				<key>bracketsForeground</key>
 				<string>#F8F8F2A5</string>
@@ -145,11 +145,11 @@
 			<key>name</key>
 			<string>Keyword Operator Class</string>
 			<key>scope</key>
-			<string>keyword.operator.class</string>
+			<string>keyword.operator.class, punctuation.section.embedded.begin, punctuation.section.embedded.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ccccb4</string>
+				<string>#eae9d199</string>
 			</dict>
 		</dict>
 		<dict>
